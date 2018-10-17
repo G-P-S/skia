@@ -167,7 +167,7 @@ config("default") {
     ]
 
     libs += [
-      "c++_static",
+      "c++_shared",
       "c++abi",
     ]
     if (ndk_api < 21) {
